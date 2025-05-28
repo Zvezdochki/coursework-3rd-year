@@ -98,4 +98,4 @@ with gr.Blocks(css=css, title="🚦 AI Детектор", theme=gr.themes.Soft()
     )
 
 if __name__ == '__main__':
-    demo.launch()
+    demo.launch(inbrowser=True)
