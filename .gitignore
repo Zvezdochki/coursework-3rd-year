@@ -1,0 +1,48 @@
+# Виртуальные окружения
+venv/
+venv2/
+
+# Альтернативно, можно использовать более общий паттерн для всех venv директорий:
+# venv*/
+# .venv/
+# env/
+# ENV/
+
+# Другие полезные исключения для Python проектов:
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.so
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+
+# Модели и данные (если они большие)
+*.pt
+*.pth
+*.onnx
+*.h5
+*.pkl
+
+# IDE файлы
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Logs
+*.log
