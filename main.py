@@ -36,7 +36,7 @@ def process_frame(frame: np.ndarray, confidence_threshold: float) -> np.ndarray:
         return frame
 
 with gr.Blocks() as demo:
-    gr.Markdown("## Real-time Video Processing с настройкой точности")
+    gr.Markdown("## Распознавание дорожных знаков в реальном времени")
     
     with gr.Row():
         with gr.Column():
@@ -45,7 +45,7 @@ with gr.Blocks() as demo:
             confidence_slider = gr.Slider(
                 minimum=0.0,
                 maximum=1.0,
-                value=0.5,  # Значение по умолчанию
+                value=0.6,  # Значение по умолчанию
                 step=0.05,
                 label="Порог уверенности",
                 info="Минимальная уверенность для отображения обнаружений"
