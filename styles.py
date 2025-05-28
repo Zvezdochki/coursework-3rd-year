@@ -46,7 +46,8 @@ css = """
 
 /* Ползунок */
 .confidence-slider {
-    margin: 1rem 0 !important;
+    border: 1px solid #e9ecef !important;
+    border-radius: 8px !important;
 }
 
 /* Информационная панель */
